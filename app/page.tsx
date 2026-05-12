@@ -146,7 +146,7 @@ export default function Home() {
                         <Printer className="ml-2 h-5 w-5" />
                       </Link>
                     </AnimatedButton>
-                    <AnimatedButton variant="outline" className="text-base px-6 py-3" whileHover={{ scale: 1.05 }}>
+                    <AnimatedButton variant="outline" className="text-base px-6 py-3" whileHover={{ scale: 1.05 }} asChild>
                       <Link href="#bonos-verdes">
                         Como obtener bonos
                         <ArrowRight className="ml-2 h-5 w-5" />
@@ -1048,7 +1048,7 @@ export default function Home() {
                 </AnimatedButton>
                 <AnimatedButton
                   variant="outline"
-                  className="border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary text-base px-8 py-3"
+                  className="border-background bg-background text-primary hover:bg-background/90 text-base px-8 py-3"
                   whileHover={{ scale: 1.05 }}
                   asChild
                 >
