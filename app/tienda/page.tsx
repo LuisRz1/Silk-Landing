@@ -1,4 +1,4 @@
-﻿"use client"
+"use client"
 
 import { useState } from "react"
 import Image from "next/image"
@@ -56,7 +56,7 @@ const products: Product[] = [
   {
     id: 1,
     name: "Figura Decorativa Moderna",
-    description: "Elegante figura decorativa impresa en 3D con plÃ¡stico reciclado de alta calidad.",
+    description: "Elegante figura decorativa impresa en 3D con plástico reciclado de alta calidad.",
     image: "/images/figure1.jpg",
     category: "figuras",
     basePriceSoles: 15,
@@ -71,7 +71,7 @@ const products: Product[] = [
   {
     id: 2,
     name: "Herramienta Multiuso",
-    description: "Herramienta versÃ¡til para mÃºltiples tareas del hogar y jardÃ­n.",
+    description: "Herramienta versátil para múltiples tareas del hogar y jardín.",
     image: "/images/tool2.jpg",
     category: "herramientas",
     basePriceSoles: 25,
@@ -81,12 +81,12 @@ const products: Product[] = [
     reviews: 18,
     inStock: true,
     featured: true,
-    tags: ["Ãºtil", "jardÃ­n", "hogar"],
+    tags: ["útil", "jardín", "hogar"],
   },
   {
     id: 3,
     name: "Maceta Decorativa",
-    description: "Hermosa maceta para plantas pequeÃ±as, perfecta para interiores.",
+    description: "Hermosa maceta para plantas pequeñas, perfecta para interiores.",
     image: "/images/deco1.jpg",
     category: "decoracion",
     basePriceSoles: 20,
@@ -100,8 +100,8 @@ const products: Product[] = [
   },
   {
     id: 4,
-    name: "Figura ArtÃ­stica Abstracta",
-    description: "Pieza de arte abstracto Ãºnica, perfecta para coleccionistas.",
+    name: "Figura Artística Abstracta",
+    description: "Pieza de arte abstracto única, perfecta para coleccionistas.",
     image: "/images/figure2.jpg",
     category: "figuras",
     basePriceSoles: 30,
@@ -111,12 +111,12 @@ const products: Product[] = [
     reviews: 12,
     inStock: true,
     featured: false,
-    tags: ["arte", "abstracto", "colecciÃ³n"],
+    tags: ["arte", "abstracto", "colección"],
   },
   {
     id: 5,
     name: "Organizador de Escritorio",
-    description: "MantÃ©n tu espacio de trabajo ordenado con este prÃ¡ctico organizador.",
+    description: "Mantén tu espacio de trabajo ordenado con este práctico organizador.",
     image: "/images/tool1.jpg",
     category: "herramientas",
     basePriceSoles: 18,
@@ -126,12 +126,12 @@ const products: Product[] = [
     reviews: 27,
     inStock: false,
     featured: false,
-    tags: ["oficina", "organizaciÃ³n", "escritorio"],
+    tags: ["oficina", "organización", "escritorio"],
   },
   {
     id: 6,
-    name: "LÃ¡mpara de Mesa Eco",
-    description: "LÃ¡mpara de diseÃ±o sostenible con luz LED integrada.",
+    name: "Lámpara de Mesa Eco",
+    description: "Lámpara de diseño sostenible con luz LED integrada.",
     image: "/images/deco2.jpg",
     category: "decoracion",
     basePriceSoles: 45,
@@ -141,12 +141,12 @@ const products: Product[] = [
     reviews: 15,
     inStock: true,
     featured: true,
-    tags: ["iluminaciÃ³n", "eco", "diseÃ±o"],
+    tags: ["iluminación", "eco", "diseño"],
   },
   {
     id: 7,
-    name: "Figura GeomÃ©trica Premium",
-    description: "Figura geomÃ©trica de alta precisiÃ³n, ideal para decoraciÃ³n minimalista.",
+    name: "Figura Geométrica Premium",
+    description: "Figura geométrica de alta precisión, ideal para decoración minimalista.",
     image: "/images/figure3.jpg",
     category: "figuras",
     basePriceSoles: 22,
@@ -156,12 +156,12 @@ const products: Product[] = [
     reviews: 19,
     inStock: true,
     featured: false,
-    tags: ["geomÃ©trico", "minimalista", "premium"],
+    tags: ["geométrico", "minimalista", "premium"],
   },
   {
     id: 8,
     name: "Soporte Ajustable",
-    description: "Soporte multiuso ajustable, perfecto para telÃ©fonos, tabletas y mÃ¡s.",
+    description: "Soporte multiuso ajustable, perfecto para teléfonos, tabletas y más.",
     image: "/images/tool3.jpg",
     category: "herramientas",
     basePriceSoles: 20,
@@ -171,12 +171,12 @@ const products: Product[] = [
     reviews: 22,
     inStock: true,
     featured: false,
-    tags: ["soporte", "tecnologÃ­a", "ajustable"],
+    tags: ["soporte", "tecnología", "ajustable"],
   },
   {
     id: 9,
-    name: "JarrÃ³n OrgÃ¡nico",
-    description: "JarrÃ³n de formas orgÃ¡nicas inspirado en la naturaleza, impreso con filamento reciclado.",
+    name: "Jarrón Orgánico",
+    description: "Jarrón de formas orgánicas inspirado en la naturaleza, impreso con filamento reciclado.",
     image: "/images/deco3.jpg",
     category: "decoracion",
     basePriceSoles: 35,
@@ -186,7 +186,7 @@ const products: Product[] = [
     reviews: 9,
     inStock: true,
     featured: false,
-    tags: ["jarrÃ³n", "orgÃ¡nico", "naturaleza"],
+    tags: ["jarrón", "orgánico", "naturaleza"],
   },
 ]
 
@@ -301,8 +301,8 @@ export default function TiendaPage() {
                 Tienda <span className="text-primary">3D Silk</span>
               </h1>
               <p className="mx-auto max-w-[600px] text-muted-foreground text-base leading-relaxed mb-8">
-                Intercambia tus bonos verdes por objetos Ãºnicos impresos en 3D con plÃ¡stico reciclado.
-                Cada compra apoya la economÃ­a circular.
+                Intercambia tus bonos verdes por objetos únicos impresos en 3D con plástico reciclado.
+                Cada compra apoya la economía circular.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 items-center justify-center">
                 <motion.div
@@ -330,27 +330,27 @@ export default function TiendaPage() {
         <section className="w-full py-10 border-b">
           <div className="container px-4 md:px-6">
             <AnimatedSection animation="slideUp">
-              <h2 className="text-2xl font-bold mb-6 text-center">Explora por CategorÃ­as</h2>
+              <h2 className="text-2xl font-bold mb-6 text-center">Explora por Categorías</h2>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                 {[
                   {
                     category: "figuras",
                     title: "Figuras Decorativas",
-                    description: "Arte y decoraciÃ³n para tu hogar",
+                    description: "Arte y decoración para tu hogar",
                     icon: <Gift className="h-8 w-8" />,
                     count: products.filter((p) => p.category === "figuras").length,
                   },
                   {
                     category: "herramientas",
-                    title: "Herramientas Ãštiles",
-                    description: "Objetos prÃ¡cticos para el dÃ­a a dÃ­a",
+                    title: "Herramientas Útiles",
+                    description: "Objetos prácticos para el día a día",
                     icon: <Wrench className="h-8 w-8" />,
                     count: products.filter((p) => p.category === "herramientas").length,
                   },
                   {
                     category: "decoracion",
-                    title: "DecoraciÃ³n",
-                    description: "Elementos decorativos Ãºnicos",
+                    title: "Decoración",
+                    description: "Elementos decorativos únicos",
                     icon: <Home className="h-8 w-8" />,
                     count: products.filter((p) => p.category === "decoracion").length,
                   },
@@ -402,13 +402,13 @@ export default function TiendaPage() {
                 <div className="flex gap-2 items-center flex-wrap justify-center">
                   <Select value={selectedCategory} onValueChange={setSelectedCategory}>
                     <SelectTrigger className="w-40">
-                      <SelectValue placeholder="CategorÃ­a" />
+                      <SelectValue placeholder="Categoría" />
                     </SelectTrigger>
                     <SelectContent>
                       <SelectItem value="all">Todas</SelectItem>
                       <SelectItem value="figuras">Figuras</SelectItem>
                       <SelectItem value="herramientas">Herramientas</SelectItem>
-                      <SelectItem value="decoracion">DecoraciÃ³n</SelectItem>
+                      <SelectItem value="decoracion">Decoración</SelectItem>
                     </SelectContent>
                   </Select>
                   <Select value={sortBy} onValueChange={setSortBy}>
@@ -530,7 +530,7 @@ export default function TiendaPage() {
                                     <Recycle className="h-4 w-4 text-primary" />
                                     <span className="text-sm font-medium text-primary">Con Eco-Coins</span>
                                   </div>
-                                  <Badge className="bg-primary text-primary-foreground text-xs">Â¡Ahorra!</Badge>
+                                  <Badge className="bg-primary text-primary-foreground text-xs">¡Ahorra!</Badge>
                                 </div>
                                 <div className="flex items-center justify-between text-xs text-muted-foreground mb-1">
                                   <span>Descuento:</span>
@@ -573,7 +573,7 @@ export default function TiendaPage() {
                                 onClick={() => addToCart(product.id)}
                                 className="w-full text-sm"
                               >
-                                Precio completo â€” S/ {product.basePriceSoles}
+                                Precio completo "” S/ {product.basePriceSoles}
                               </Button>
                             </div>
                           </CardContent>
@@ -586,7 +586,7 @@ export default function TiendaPage() {
               {filteredProducts.length === 0 && (
                 <motion.div className="text-center py-16" initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
                   <p className="text-muted-foreground text-lg">
-                    No se encontraron productos que coincidan con tu bÃºsqueda.
+                    No se encontraron productos que coincidan con tu búsqueda.
                   </p>
                 </motion.div>
               )}
@@ -594,7 +594,7 @@ export default function TiendaPage() {
           </div>
         </section>
 
-        {/* CTA â€” Recicla mÃ¡s */}
+        {/* CTA "” Recicla más */}
         <section className="w-full py-12 md:py-16 bg-primary text-primary-foreground overflow-hidden relative z-10">
           <div className="container px-4 md:px-6 text-center">
             <AnimatedSection animation="fadeIn" duration={0.8}>
@@ -605,7 +605,7 @@ export default function TiendaPage() {
                 viewport={{ once: true }}
                 transition={{ duration: 0.7 }}
               >
-                Â¿Necesitas mÃ¡s eco-coins?
+                ¿Necesitas más eco-coins?
               </motion.h2>
               <motion.p
                 className="mx-auto max-w-[600px] text-primary-foreground/80 mb-8"
@@ -614,7 +614,7 @@ export default function TiendaPage() {
                 viewport={{ once: true }}
                 transition={{ delay: 0.2, duration: 0.7 }}
               >
-                Trae mÃ¡s botellas recicladas a nuestros puntos de recolecciÃ³n y acumula mÃ¡s bonos para canjear productos.
+                Trae más botellas recicladas a nuestros puntos de recolección y acumula más bonos para canjear productos.
               </motion.p>
               <motion.div
                 className="flex flex-col sm:flex-row gap-4 justify-center"
@@ -630,7 +630,7 @@ export default function TiendaPage() {
                 >
                   <Link href="/#contacto">
                     <MapPin className="mr-2 h-5 w-5" />
-                    Encontrar puntos de recolecciÃ³n
+                    Encontrar puntos de recolección
                   </Link>
                 </AnimatedButton>
                 <AnimatedButton
@@ -659,9 +659,9 @@ export default function TiendaPage() {
                   >
                     <Upload className="h-8 w-8 text-primary" />
                   </motion.div>
-                  <h2 className="text-3xl font-bold mb-3">Â¿Te gustarÃ­a publicar tus modelos 3D?</h2>
+                  <h2 className="text-3xl font-bold mb-3">¿Te gustaría publicar tus modelos 3D?</h2>
                   <p className="text-muted-foreground max-w-2xl mx-auto">
-                    Ãšnete a nuestra comunidad de creadores y comparte tus diseÃ±os Ãºnicos. Gana eco-coins por cada venta.
+                    Únete a nuestra comunidad de creadores y comparte tus diseños únicos. Gana eco-coins por cada venta.
                   </p>
                 </div>
                 <div className="grid md:grid-cols-2 gap-8 items-start">
@@ -669,18 +669,18 @@ export default function TiendaPage() {
                     {[
                       {
                         icon: <FileImage className="h-5 w-5 text-primary" />,
-                        title: "Sube tus diseÃ±os",
+                        title: "Sube tus diseños",
                         desc: "Comparte archivos STL, OBJ u otros formatos compatibles con nuestra plataforma.",
                       },
                       {
                         icon: <Coins className="h-5 w-5 text-primary" />,
                         title: "Gana eco-coins",
-                        desc: "Recibe eco-coins por cada venta. Mientras mÃ¡s popular sea tu diseÃ±o, mÃ¡s ganas.",
+                        desc: "Recibe eco-coins por cada venta. Mientras más popular sea tu diseño, más ganas.",
                       },
                       {
                         icon: <Recycle className="h-5 w-5 text-primary" />,
                         title: "Impacto sostenible",
-                        desc: "Tus diseÃ±os se imprimen con plÃ¡stico reciclado, contribuyendo a un futuro mÃ¡s verde.",
+                        desc: "Tus diseños se imprimen con plástico reciclado, contribuyendo a un futuro más verde.",
                       },
                     ].map((item) => (
                       <div key={item.title} className="flex items-start gap-4">
@@ -694,7 +694,7 @@ export default function TiendaPage() {
                       </div>
                     ))}
                     <div className="flex flex-wrap gap-4 pt-2">
-                      {["+50 creadores activos", "ComisiÃ³n: 15%", "Pago en eco-coins"].map((stat) => (
+                      {["+50 creadores activos", "Comisión: 15%", "Pago en eco-coins"].map((stat) => (
                         <div key={stat} className="flex items-center gap-1.5">
                           <div className="w-2 h-2 bg-primary rounded-full animate-pulse" />
                           <span className="text-xs font-medium">{stat}</span>
@@ -714,30 +714,30 @@ export default function TiendaPage() {
                         <Input type="email" placeholder="tu@email.com" />
                       </div>
                       <div className="grid gap-2">
-                        <label className="text-sm font-medium">CategorÃ­a principal</label>
+                        <label className="text-sm font-medium">Categoría principal</label>
                         <Select>
                           <SelectTrigger>
-                            <SelectValue placeholder="Selecciona una categorÃ­a" />
+                            <SelectValue placeholder="Selecciona una categoría" />
                           </SelectTrigger>
                           <SelectContent>
                             <SelectItem value="figuras">Figuras Decorativas</SelectItem>
-                            <SelectItem value="herramientas">Herramientas Ãštiles</SelectItem>
-                            <SelectItem value="decoracion">DecoraciÃ³n</SelectItem>
+                            <SelectItem value="herramientas">Herramientas Útiles</SelectItem>
+                            <SelectItem value="decoracion">Decoración</SelectItem>
                             <SelectItem value="juguetes">Juguetes</SelectItem>
                             <SelectItem value="accesorios">Accesorios</SelectItem>
                           </SelectContent>
                         </Select>
                       </div>
                       <div className="grid gap-2">
-                        <label className="text-sm font-medium">Experiencia en diseÃ±o 3D</label>
+                        <label className="text-sm font-medium">Experiencia en diseño 3D</label>
                         <Select>
                           <SelectTrigger>
                             <SelectValue placeholder="Selecciona tu nivel" />
                           </SelectTrigger>
                           <SelectContent>
-                            <SelectItem value="principiante">Principiante (menos de 1 aÃ±o)</SelectItem>
-                            <SelectItem value="intermedio">Intermedio (1-3 aÃ±os)</SelectItem>
-                            <SelectItem value="avanzado">Avanzado (3+ aÃ±os)</SelectItem>
+                            <SelectItem value="principiante">Principiante (menos de 1 año)</SelectItem>
+                            <SelectItem value="intermedio">Intermedio (1-3 años)</SelectItem>
+                            <SelectItem value="avanzado">Avanzado (3+ años)</SelectItem>
                             <SelectItem value="profesional">Profesional</SelectItem>
                           </SelectContent>
                         </Select>
@@ -774,9 +774,9 @@ export default function TiendaPage() {
                   >
                     <Printer className="h-8 w-8 text-primary" />
                   </motion.div>
-                  <h2 className="text-3xl font-bold mb-3">Â¿Tienes una impresora 3D?</h2>
+                  <h2 className="text-3xl font-bold mb-3">¿Tienes una impresora 3D?</h2>
                   <p className="text-muted-foreground max-w-2xl mx-auto">
-                    Ãšnete a nuestra red de impresores y gana eco-coins ofreciendo servicios de impresiÃ³n con plÃ¡stico reciclado.
+                    Únete a nuestra red de impresores y gana eco-coins ofreciendo servicios de impresión con plástico reciclado.
                   </p>
                 </div>
                 <div className="grid md:grid-cols-2 gap-8 items-start">
@@ -785,7 +785,7 @@ export default function TiendaPage() {
                       {
                         icon: <Printer className="h-5 w-5 text-primary" />,
                         title: "Ofrece tus servicios",
-                        desc: "Registra tu impresora 3D y especifica tus capacidades, materiales y Ã¡rea de cobertura.",
+                        desc: "Registra tu impresora 3D y especifica tus capacidades, materiales y área de cobertura.",
                       },
                       {
                         icon: <Coins className="h-5 w-5 text-primary" />,
@@ -795,12 +795,12 @@ export default function TiendaPage() {
                       {
                         icon: <MapPin className="h-5 w-5 text-primary" />,
                         title: "Red local",
-                        desc: "Conecta con usuarios de tu zona para entregas rÃ¡pidas y reducir la huella de carbono.",
+                        desc: "Conecta con usuarios de tu zona para entregas rápidas y reducir la huella de carbono.",
                       },
                       {
                         icon: <Recycle className="h-5 w-5 text-primary" />,
-                        title: "PlÃ¡stico reciclado",
-                        desc: "Trabajamos con filamentos de plÃ¡stico reciclado, contribuyendo a la economÃ­a circular.",
+                        title: "Plástico reciclado",
+                        desc: "Trabajamos con filamentos de plástico reciclado, contribuyendo a la economía circular.",
                       },
                     ].map((item) => (
                       <div key={item.title} className="flex items-start gap-4">
@@ -815,9 +815,9 @@ export default function TiendaPage() {
                     ))}
                     <div className="grid grid-cols-3 gap-3">
                       {[
-                        { zone: "Lima Norte", printers: 8, time: "2-3 dÃ­as", rating: 4.8 },
-                        { zone: "Lima Centro", printers: 12, time: "1-2 dÃ­as", rating: 4.9 },
-                        { zone: "Lima Sur", printers: 5, time: "3-4 dÃ­as", rating: 4.7 },
+                        { zone: "Lima Norte", printers: 8, time: "2-3 días", rating: 4.8 },
+                        { zone: "Lima Centro", printers: 12, time: "1-2 días", rating: 4.9 },
+                        { zone: "Lima Sur", printers: 5, time: "3-4 días", rating: 4.7 },
                       ].map((z, i) => (
                         <motion.div
                           key={z.zone}
@@ -840,7 +840,7 @@ export default function TiendaPage() {
                       ))}
                     </div>
                     <div className="flex flex-wrap gap-4">
-                      {["+25 impresores activos", "ComisiÃ³n: 10%", "Pago en eco-coins"].map((stat) => (
+                      {["+25 impresores activos", "Comisión: 10%", "Pago en eco-coins"].map((stat) => (
                         <div key={stat} className="flex items-center gap-1.5">
                           <div className="w-2 h-2 bg-primary rounded-full animate-pulse" />
                           <span className="text-xs font-medium">{stat}</span>
@@ -876,20 +876,20 @@ export default function TiendaPage() {
                         </Select>
                       </div>
                       <div className="grid gap-2">
-                        <label className="text-sm font-medium">Volumen de impresiÃ³n</label>
+                        <label className="text-sm font-medium">Volumen de impresión</label>
                         <Select>
                           <SelectTrigger>
-                            <SelectValue placeholder="TamaÃ±o mÃ¡ximo" />
+                            <SelectValue placeholder="Tamaño máximo" />
                           </SelectTrigger>
                           <SelectContent>
-                            <SelectItem value="small">PequeÃ±o (hasta 20Ã—20Ã—20 cm)</SelectItem>
-                            <SelectItem value="medium">Mediano (hasta 30Ã—30Ã—30 cm)</SelectItem>
-                            <SelectItem value="large">Grande (mÃ¡s de 30Ã—30Ã—30 cm)</SelectItem>
+                            <SelectItem value="small">Pequeño (hasta 20×20×20 cm)</SelectItem>
+                            <SelectItem value="medium">Mediano (hasta 30×30×30 cm)</SelectItem>
+                            <SelectItem value="large">Grande (más de 30×30×30 cm)</SelectItem>
                           </SelectContent>
                         </Select>
                       </div>
                       <div className="grid gap-2">
-                        <label className="text-sm font-medium">UbicaciÃ³n (distrito/ciudad)</label>
+                        <label className="text-sm font-medium">Ubicación (distrito/ciudad)</label>
                         <Input placeholder="Ej: San Isidro, Lima" />
                       </div>
                       <AnimatedButton className="w-full bg-primary hover:bg-primary/90 silk-glow" whileHover={{ scale: 1.02 }}>
@@ -916,11 +916,11 @@ export default function TiendaPage() {
               <Recycle className="h-5 w-5 text-primary-foreground" />
             </div>
             <p className="text-sm text-muted-foreground">
-              Â© {new Date().getFullYear()} Silk. Todos los derechos reservados.
+              © {new Date().getFullYear()} Silk. Todos los derechos reservados.
             </p>
           </div>
           <nav className="flex gap-6">
-            {["TÃ©rminos", "Privacidad", "Cookies"].map((item) => (
+            {["Términos", "Privacidad", "Cookies"].map((item) => (
               <Link
                 key={item}
                 href="#"
